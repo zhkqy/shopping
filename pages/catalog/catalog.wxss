@@ -45,7 +45,7 @@ page {
   /*只设下边线*/
   border-bottom: 1px solid #dedede;
   /*文字14px*/
-  font-size: 32rpx;
+  font-size: 30rpx;
 }
 
 /*左侧栏list的item被选中时*/
@@ -53,8 +53,8 @@ page {
 .nav_left .nav_left_items.active {
   /*背景色变成白色*/
   background: #fff;
-  font-weight: 700;
-  font-size: 32rpx;
+  font-weight: 600;
+  font-size: 30rpx;
   color: #64e185;
 }
 
@@ -80,15 +80,15 @@ page {
   /*浮动向左*/
   float: left;
   /*每个item设置宽度是33.33%*/
-  width: 33.33%;
+  width: 43.33%;
   height: 120px;
   text-align: center;
 }
 
 .nav_right .nav_right_items image {
   /*被图片设置宽高*/
-  width: 60px;
-  height: 60px;
+  width: 120rpx;
+  height: 120rpx;
   margin-top: 15px;
 }
 

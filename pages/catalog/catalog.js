@@ -8,8 +8,8 @@ Page({
         ishaveChild: true,
         children: [{
             child_id: 1,
-            name: '洁面皂',
-            image: "http://mz.djmall.xmisp.cn/files/logo/20161208/148117972563.jpg"
+            name: '芒果',
+          image: "https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1532419029&di=e533eb53e6d8123ffe4f6df863887ceb&src=http://a2.att.hudong.com/68/27/19300001055131129343270081150.jpg"
           },
           {
             child_id: 2,
