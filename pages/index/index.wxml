@@ -1,12 +1,23 @@
-<!--index.wxml-->
-<view class="container">
+<view>
 
-  <swiper class="banner" indicator-dots="true" autoplay="true" interval="3000" duration="1000">
+  <swiper class="banner" indicator-dots="true" autoplay="true" interval="3000" duration="500" circular='true'>
     <swiper-item wx:for="{{banner}}" wx:key="{{item.id}}">
       <navigator url="{{item.link}}">
         <image src="{{item.image_url}}" background-size="cover" mode='aspectFill'></image>
       </navigator>
     </swiper-item>
   </swiper>
+
+  <view class="list">
+    <view wx:for="{{hotShopDatas}}" wx:key="{{item.id}}">
+      <view class="item">
+        <image src=" {{item.image_url}}" background-size="cover" mode="aspectFill"></image>
+        <text>{{item.title}}</text>
+      </view>
+
+    </view>
+
+  </view>
+
 
 </view>
