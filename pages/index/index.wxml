@@ -11,9 +11,21 @@
   <view class="list">
     <view wx:for="{{hotShopDatas}}" wx:key="{{item.id}}">
       <view class="item">
+        <!-- 左标题 -->
         <image src=" {{item.image_url}}" background-size="cover" mode="aspectFill"></image>
-        <text>{{item.title}}</text>
+        <!-- 右内容 -->
+        <view>
+          <text>{{item.title}}</text>
+          <text>{{item.descrip}}</text>
+          <!-- 显示价格 -->
+          <view>
+            <text class="price">{{"￥"+item.price}}</text>
+            <text class="preprice">{{"￥"+item.prePrice}}</text>
+          </view>
+
+        </view>
       </view>
+      <view class="line"></view>
 
     </view>
 
