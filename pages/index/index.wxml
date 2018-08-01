@@ -1,4 +1,4 @@
-<view>
+<view class="container">
 
   <swiper class="banner" indicator-dots="true" autoplay="true" interval="3000" duration="500" circular='true'>
     <swiper-item wx:for="{{banner}}" wx:key="{{item.id}}">
