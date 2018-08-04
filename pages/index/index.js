@@ -121,5 +121,12 @@ Page({
       wx.hideNavigationBarLoading() //完成停止加载
       wx.stopPullDownRefresh() //停止下拉刷新
     }, 1500);
+  },
+  onShareAppMessage: function() {
+    return {
+      title: '鲜水果店',
+      desc: '我们只是水果的搬运工',
+      path: '/pages/index/index'
+    }
   }
 })
